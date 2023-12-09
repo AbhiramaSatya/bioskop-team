@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.blur-backdrop-filter{
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
+}
+
+@layer components{
+    .list-style{
+        @apply font-Dmsans text-[20px] font-normal text-[#D4D7DA];
+    }
+
+}
+
+@layer components{
+  .date{
+    @apply w-[196px] ms-2 block h-[32px] font-Dmsans text-base ps-[11px] text-[#535353] rounded-[4px] mt-1 border-2 border-[#828282];
+  }
+}
+
+@layer components{
+  .button-movie{
+    @apply py-[10px] px-[16px]  rounded-md w-[220px] bg-[#BE123C] text-white font-Dmsans text-[14px] font-medium;
+  }
+}
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-login{
+  box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.25);
+}

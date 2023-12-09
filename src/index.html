@@ -1,0 +1,470 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div class="bg-[url(/asset/bg-img.svg)] h-[650px] handphone:bg-center bg-cover">
+      <!-- Navbar  -->
+      <nav
+        class="bg-[#000] relative z-10 shadow-sm bg-clip-padding blur-bakcfrop-filter bg-opacity-[.38] w-full h-[80px]"
+      >
+        <div class="flex max-w-screen-xl mx-auto pt-[15px] laptop:ms-[40px]">
+          <div class="flex items-center align-middle">
+            <img src="/asset/logo-team.svg" alt="" />
+            <p class="text-[24px] font-Dmsans font-bold text-white ms-[14px]">
+              Moviest
+            </p>
+          </div>
+
+          <ul
+            class="flex items-center align-middle mt-1 ms-[64px] gap-[20px] cursor-pointer active:font-bold"
+          >
+            <li class="list-style">Home</li>
+            <li class="list-style">Featured Movie</li>
+            <li class="list-style">New Arival</li>
+            <li class="list-style">Exclusive Video</li>
+            <li class="list-style">Director Favorite</li>
+          </ul>
+
+          <div class="relative bg-transparent ms-[47px] mt-[8px]">
+            <div class="absolute flex items-center right-3 justify pt-[12px]">
+              <img src="/asset/search.svg" alt="" />
+            </div>
+            <input
+              type="text"
+              class="bg-transparent border-2 w-[146px] h-[40px] outline-none ps-2 text-white border-white rounded-[6px] placeholder:text-white"
+              placeholder="Search Movie"
+            />
+          </div>
+
+          <div class="mt-[8px] ms-[64px]">
+            <img src="/asset/profile.svg" alt="" />
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar -->
+
+      <!-- Hero Section -->
+      <section class="mt-[78px]">
+        <div class="max-w-screen-xl mx-auto laptop:ms-[40px]">
+          <p
+            class="font-Dmsans text-[48px] font-bold text-white leading-[56px]"
+          >
+            Spider Man <br />
+            Home Coming
+          </p>
+          <div class="flex gap-[10px] mt-[16px]">
+            <img class="w-[35px] h-[17px]" src="/asset/imdb.svg" alt="" />
+            <p class="text-[12px] font-Dmsans text-white">86.0 / 100</p>
+          </div>
+          <p
+            class="font-Dmsans text-[14px] font-normal leading-[18px] w-[300px] text-white pt-4"
+          >
+            Peter Parker balances his life as an ordinary high school student in
+            Queens with the superhero alter-ego Spider-Man, and finds himself on
+            the trail of a new threat roaming the skies of New York City.
+          </p>
+          <button
+            class="py-[6px] cursor-pointer px-[16px] flex items-center text-white bg-[#BE123C] mt-[16px] font-bold rounded-[6px] uppercase"
+          >
+            <img class="me-2" src="/asset/trailer-button.svg" alt="" /> Watch
+            Trailer
+          </button>
+        </div>
+      </section>
+    </div>
+    <!-- Hero Section -->
+
+    <!-- Card Section 1-->
+
+    <section class="max-w-screen-xl mx-auto laptop:ms-[40px]">
+      <div class="flex justify-between items-center mt-[70px]">
+        <div class="">
+          <p class="text-black text-[36px] font-bold">Featured Movie</p>
+        </div>
+        <div class="flex laptop:me-9 items-center">
+          <p class="text-[#BE123C] font-Dmsans">See more</p>
+          <img class="w-[20px] h-[20px]" src="/asset/arrow-right.svg" alt="" />
+        </div>
+      </div>
+
+      <div class="grid grid-cols-4 gap-[80px] laptop:gap-[20px]">
+        <!-- Card 1 -->
+        <div class="w-[250px] h-[480px] bg-white mt-10 relative">
+          <img class="" src="/asset/poster-1.svg" alt="" />
+          <p class="text-[#9CA3AF] font-Dmsans text-[12px] font-bold pt-3">
+            USA, 2023
+          </p>
+          <p class="text-[#111827] font-Dmsans text-[18px] font-bold pt-3">
+            Quantummania
+          </p>
+          <div class="flex mt-3">
+            <img class="me-[10px]" src="/asset/imdb.svg" alt="" />
+            <p class="font-Dmsans text-[12px] mt-3 font-normal">86.0 / 100</p>
+          </div>
+          <p class="text-[12px] font-bold font-Dmsans pt-3 text-[#9CA3AF]">
+            Action, Adventure,Drama
+          </p>
+        </div>
+        <!-- Card 1 -->
+
+        <!-- Card 2 -->
+        <div class="w-[250px] h-[480px] bg-white mt-10">
+          <img class="" src="/asset/poster-2.svg" alt="" />
+          <p class="text-[#9CA3AF] font-Dmsans text-[12px] font-bold pt-3">
+            USA, 2023
+          </p>
+          <p class="text-[#111827] font-Dmsans text-[18px] font-bold pt-3">
+            The Flash
+          </p>
+          <div class="flex mt-3">
+            <img class="me-[10px]" src="/asset/imdb.svg" alt="" />
+            <p class="font-Dmsans text-[12px] mt-3 font-normal">82.0 / 100</p>
+          </div>
+          <p class="text-[12px] font-bold font-Dmsans pt-3 text-[#9CA3AF]">
+            Action, Adventure
+          </p>
+        </div>
+        <!-- Card 2 -->
+
+        <!-- Card 3 -->
+        <div class="w-[250px] h-[480px] bg-white mt-10">
+          <img class="" src="/asset/poster-3.svg" alt="" />
+          <p class="text-[#9CA3AF] font-Dmsans text-[12px] font-bold pt-3">
+            USA, 2023
+          </p>
+          <p class="text-[#111827] font-Dmsans text-[18px] font-bold pt-3">
+            A Man Called Otto
+          </p>
+          <div class="flex mt-3">
+            <img class="me-[10px]" src="/asset/imdb.svg" alt="" />
+            <p class="font-Dmsans text-[12px] mt-3 font-normal">84.0 / 100</p>
+          </div>
+          <p class="text-[12px] font-bold font-Dmsans pt-3 text-[#9CA3AF]">
+            Animation, Action, Adventure
+          </p>
+        </div>
+        <!-- Card 3 -->
+
+        <!-- Card 4 -->
+        <div class="w-[250px] h-[480px] bg-white mt-10">
+          <img class="" src="/asset/poster-4.svg" alt="" />
+          <p class="text-[#9CA3AF] font-Dmsans text-[12px] font-bold pt-3">
+            USA, 2023
+          </p>
+          <p class="text-[#111827] font-Dmsans text-[18px] font-bold pt-3">
+            Knock At The Cabin
+          </p>
+          <div class="flex mt-3">
+            <img class="me-[10px]" src="/asset/imdb.svg" alt="" />
+            <p class="font-Dmsans text-[12px] mt-3 font-normal">84.0 / 100</p>
+          </div>
+          <p class="text-[12px] font-bold font-Dmsans pt-3 text-[#9CA3AF]">
+            Action, Drama, History
+          </p>
+        </div>
+        <!-- Card 4 -->
+      </div>
+    </section>
+
+    <!-- Card Section 1 -->
+
+    <!-- Card Section 2 -->
+
+    <section class="max-w-screen-xl mx-auto mt-[100px] laptop:ms-[40px]">
+      <div class="flex justify-between items-center mt-[70px]">
+        <div class="">
+          <p class="text-black text-[36px] font-bold">New Arrival</p>
+        </div>
+        <div class="flex laptop:me-9">
+          <p class="text-[#BE123C] font-Dmsans">See more</p>
+          <img class="w-[20px] h-[20px]" src="/asset/arrow-right.svg" alt="" />
+        </div>
+      </div>
+
+      <div class="grid grid-cols-4 gap-[80px] laptop:gap-[20px]">
+        <!-- Card 1 -->
+        <div class="w-[250px] h-[480px] bg-white mt-10 relative">
+          <img class="" src="/asset/poster-5.svg" alt="" />
+          <p class="text-[#9CA3AF] font-Dmsans text-[12px] font-bold pt-3">
+            INDONESIA, 2023
+          </p>
+          <p class="text-[#111827] font-Dmsans text-[18px] font-bold pt-3">
+            Bayi Ajaib
+          </p>
+          <div class="flex mt-3">
+            <img class="me-[10px]" src="/asset/imdb.svg" alt="" />
+            <p class="font-Dmsans text-[12px] mt-3 font-normal">84.0 / 100</p>
+          </div>
+          <p class="text-[12px] font-bold font-Dmsans pt-3 text-[#9CA3AF]">
+            Action, Adventure, Horor
+          </p>
+        </div>
+        <!-- Card 1 -->
+
+        <!-- Card 2 -->
+        <div class="w-[250px] h-[480px] bg-white mt-10">
+          <img class="" src="/asset/poster-6.svg" alt="" />
+          <p class="text-[#9CA3AF] font-Dmsans text-[12px] font-bold pt-3">
+            USA, 2023
+          </p>
+          <p class="text-[#111827] font-Dmsans text-[18px] font-bold pt-3">
+            The Boogeyman
+          </p>
+          <div class="flex mt-3">
+            <img class="me-[10px]" src="/asset/imdb.svg" alt="" />
+            <p class="font-Dmsans text-[12px] mt-3 font-normal">76.0 / 100</p>
+          </div>
+          <p class="text-[12px] font-bold font-Dmsans pt-3 text-[#9CA3AF]">
+            Action, Adventure,Drama
+          </p>
+        </div>
+        <!-- Card 2 -->
+
+        <!-- Card 3 -->
+        <div class="w-[250px] h-[480px] bg-white mt-10">
+          <img class="" src="/asset/poster-7.svg" alt="" />
+          <p class="text-[#9CA3AF] font-Dmsans text-[12px] font-bold pt-3">
+            USA, 2023
+          </p>
+          <p class="text-[#111827] font-Dmsans text-[18px] font-bold pt-3">
+            Transformers: Rise of Beasts
+          </p>
+          <div class="flex mt-3">
+            <img class="me-[10px]" src="/asset/imdb.svg" alt="" />
+            <p class="font-Dmsans text-[12px] mt-3 font-normal">79.0 / 100</p>
+          </div>
+          <p class="text-[12px] font-bold font-Dmsans pt-3 text-[#9CA3AF]">
+            Action, Adventure,Drama
+          </p>
+        </div>
+        <!-- Card 3 -->
+
+        <!-- Card 4 -->
+        <div class="w-[250px] h-[480px] bg-white mt-10">
+          <img class="" src="/asset/poster-8.svg" alt="" />
+          <p class="text-[#9CA3AF] font-Dmsans text-[12px] font-bold pt-3">
+            USA, 2023
+          </p>
+          <p class="text-[#111827] font-Dmsans text-[18px] font-bold pt-3">
+            Fast X
+          </p>
+          <div class="flex mt-3">
+            <img class="me-[10px]" src="/asset/imdb.svg" alt="" />
+            <p class="font-Dmsans text-[12px] mt-3 font-normal">81.0 / 100</p>
+          </div>
+          <p class="text-[12px] font-bold font-Dmsans pt-3 text-[#9CA3AF]">
+            Action, Adventure,Drama
+          </p>
+        </div>
+        <!-- Card 4 -->
+      </div>
+    </section>
+
+    <!-- Card Section 2 -->
+
+    <!-- Video Section -->
+
+    <section class="max-w-screen-xl mx-auto laptop:ms-[40px]">
+      <div class="flex justify-between items-center mt-[70px]">
+        <div class="">
+          <p class="text-black text-[36px] font-bold">Exclusive Videos</p>
+        </div>
+        <div class="flex laptop:me-9">
+          <p class="text-[#BE123C] font-Dmsans">See more</p>
+          <img class="w-[20px] h-[20px]" src="/asset/arrow-right.svg" alt="" />
+        </div>
+      </div>
+
+      <div class="swiper mySwiper grid grid-cols-3 mt-10">
+        <div class="swiper-wrapper gap-12">
+          <!-- Video 1 -->
+          <div class="swiper-slide">
+            <div class="w-[450px] h-[253px]">
+              <div class="bg-[url(/asset/video-1.svg)] w-full h-full">
+                <a href="" class="flex justify-center">
+                  <button class="absolute mt-[100px] text-black">
+                    <img src="/asset/button.svg" alt="" />
+                  </button>
+                </a>
+              </div>
+              <p class="mt-3 text-[#111827] text-[18px] font-Dmsans font-bold">
+                Across the Spider-verse (2023) Trailer
+              </p>
+            </div>
+          </div>
+          <!-- Video 1 -->
+
+          <!-- Video 2 -->
+          <div class="swiper-slide">
+            <div class="w-[450px] h-[253px]">
+              <div class="bg-[url(/asset/insidious.svg)] w-full h-full">
+                <a href="" class="flex justify-center">
+                  <button class="absolute mt-[100px] text-black">
+                    <img src="/asset/button.svg" alt="" />
+                  </button>
+                </a>
+              </div>
+              <p class="mt-3 text-[#111827] text-[18px] font-Dmsans font-bold">
+                Across the Spider-verse (2023) Trailer
+              </p>
+            </div>
+          </div>
+          <!-- Video 2 -->
+
+          <!-- Video 3 -->
+          <div class="swiper-slide">
+            <div class="w-[450px] h-[253px]">
+              <div class="bg-[url(/asset/run.svg)] bg-cover w-full h-full">
+                <a href="" class="flex justify-center">
+                  <button class="absolute mt-[100px] text-black">
+                    <img src="/asset/button.svg" alt="" />
+                  </button>
+                </a>
+              </div>
+              <p class="mt-3 text-[#111827] text-[18px] font-Dmsans font-bold">
+                Across the Spider-verse (2023) Trailer
+              </p>
+            </div>
+          </div>
+          <!-- Video 3 -->
+
+          <!-- Video 3 -->
+          <div class="swiper-slide">
+            <div class="w-[450px] h-[253px]">
+              <div class="bg-[url(/asset/run.svg)] bg-cover w-full h-full">
+                <a href="" class="flex justify-center">
+                  <button class="absolute mt-[100px] text-black">
+                    <img src="/asset/button.svg" alt="" />
+                  </button>
+                </a>
+              </div>
+              <p class="mt-3 text-[#111827] text-[18px] font-Dmsans font-bold">
+                Across the Spider-verse (2023) Trailer
+              </p>
+            </div>
+          </div>
+          <!-- Video 3 -->
+
+          <!-- Video 3 -->
+          <div class="swiper-slide">
+            <div class="w-[450px] h-[253px]">
+              <div class="bg-[url(/asset/run.svg)] bg-cover w-full h-full">
+                <a href="" class="flex justify-center">
+                  <button class="absolute mt-[100px] text-black">
+                    <img src="/asset/button.svg" alt="" />
+                  </button>
+                </a>
+              </div>
+              <p class="mt-3 text-[#111827] text-[18px] font-Dmsans font-bold">
+                Across the Spider-verse (2023) Trailer
+              </p>
+            </div>
+          </div>
+          <!-- Video 3 -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Section -->
+
+    <!-- Director Favorite -->
+
+    <section class="max-w-screen-xl mx-auto laptop:ms-[40px]">
+      <div class="flex justify-between items-center mt-[70px]">
+        <div class="">
+          <p class="text-black text-[36px] font-bold">Director's Favorite</p>
+        </div>
+        <div class="flex laptop:me-9">
+          <p class="text-[#BE123C] font-Dmsans">See more</p>
+          <img class="w-[20px] h-[20px]" src="/asset/arrow-right.svg" alt="" />
+        </div>
+      </div>
+
+      <div class="grid grid-cols-4 mt-11 gap-[80px] laptop:gap-[20px]">
+        <div class="h-[405px] w-[250px]">
+          <img class="w-full h-[370px]" src="/asset/ruben-otslund.svg" alt="" />
+          <p class="text-[#111827] mt-3 text-[18px] font-bold font-Dmsans">
+            Ruben Ostlund
+          </p>
+        </div>
+
+        <div class="h-[405px] w-[250px]">
+          <img class="w-[250px] h-[370px]" src="/asset/martin-mc.svg" alt="" />
+          <p class="text-[#111827] mt-3 text-[18px] font-bold font-Dmsans">
+            Martin McDonaugh
+          </p>
+        </div>
+
+        <div class="h-[405px] w-[250px]">
+          <img class="w-[250px] h-[370px]" src="/asset/todd.svg" alt="" />
+          <p class="text-[#111827] mt-3 text-[18px] font-bold font-Dmsans">
+            Todd Field
+          </p>
+        </div>
+
+        <div class="h-[405px] w-[250px]">
+          <img
+            class="w-[250px] h-[370px]"
+            src="/asset/martin-scoreseas.svg"
+            alt=""
+          />
+          <p class="text-[#111827] mt-3 text-[18px] font-bold font-Dmsans">
+            Martin Scorsese
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Director Favorite -->
+
+    <!-- Footer -->
+
+    <footer class="h-[258px] w-full bg-black mt-[100px]">
+      <div class="flex justify-center">
+        <div class="mt-[50px] flex gap-12">
+          <img src="/asset/fb.svg" alt="" />
+          <img src="/asset/ig.svg" alt="" />
+          <img src="/asset/twitter.svg" alt="" />
+          <img src="/asset/youtube.svg" alt="" />
+        </div>
+      </div>
+
+      <div class="flex justify-center">
+        <div
+          class="mt-[36px] flex text-white gap-x-[48px] font-Dmsans text-[18px] font-bold"
+        >
+          <p>Conditions of Use</p>
+          <p>Privacy & Policy</p>
+          <p>Press Room</p>
+        </div>
+      </div>
+
+      <div class="flex justify-center">
+        <div class="mt-[36px] flex">
+          <p class="font-Dmsans text-[18px] font-bold text-[#F6F6F6]">
+            © 2023 Moviest. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

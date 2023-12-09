@@ -1,0 +1,243 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar  -->
+    <nav class="bg-[#000] relative z-10 shadow-sm w-full h-[80px]">
+      <div class="flex max-w-screen-xl mx-auto pt-[15px] laptop:ms-[40px]">
+        <div class="flex items-center align-middle">
+          <img src="/asset/logo-team.svg" alt="" />
+          <p class="text-[24px] font-Dmsans font-bold text-white ms-[14px]">
+            Moviest
+          </p>
+        </div>
+
+        <ul
+          class="flex items-center align-middle mt-1 ms-[64px] gap-[20px] cursor-pointer active:font-bold"
+        >
+          <li class="list-style">Home</li>
+          <li class="list-style">Featured Movie</li>
+          <li class="list-style">New Arival</li>
+          <li class="list-style">Exclusive Video</li>
+          <li class="list-style">Director Favorite</li>
+        </ul>
+
+        <div class="relative bg-transparent ms-[47px] mt-[8px]">
+          <div class="absolute flex items-center right-3 justify pt-[12px]">
+            <img src="/asset/search.svg" alt="" />
+          </div>
+          <input
+            type="text"
+            class="bg-transparent border-2 w-[146px] h-[40px] outline-none ps-2 text-white border-white rounded-[6px] placeholder:text-white"
+            placeholder="Search Movie"
+          />
+        </div>
+
+        <div class="mt-[8px] ms-[64px]">
+          <img class="relative" src="/asset/profile.svg" alt="" />
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Main content -->
+
+    <section class="max-w-screen-xl mx-auto">
+      <!-- Big Video -->
+      <div class="flex justify-center mt-[70px]">
+        <div class="bg-[url(/asset/big-video.svg)] w-[997px] h-[455px]">
+          <a href="" class="flex justify-center">
+            <button class="absolute mt-[200px] text-black">
+              <img src="/asset/button.svg" alt="" />
+            </button>
+          </a>
+        </div>
+      </div>
+      <!-- Big Video -->
+
+      <div class="grid grid-cols-2">
+        <div class="text-center mt-12">
+          <!--  -->
+          <p class="text-[#111827] font-Dmsans font-bold text-[30px]">
+            Insidious : The Dark Realm
+          </p>
+          <!--  -->
+          <div class="flex">
+            <div class="">
+              <div class="flex justify-center ms-[135px]">
+                <div class="flex mt-[20px]">
+                  <!--  -->
+                  <img class="me-1" src="/asset/location.svg" alt="" />
+                  <!--  -->
+
+                  <!--  -->
+                  <select class="date">
+                    <option class="hidden">Location</option>
+                    <option>Level 21 Mall</option>
+                    <option>Plaza</option>
+                    <option>TSM</option>
+                    <option>Living World</option>
+                  </select>
+                  <!--  -->
+                </div>
+
+                <!--  -->
+                <div class="flex mt-[20px] ms-[70px]">
+                  <img class="me-1" src="/asset/Date.svg" alt="" />
+                  <input type="date" class="date" />
+                </div>
+                <!--  -->
+              </div>
+
+              <div class="flex justify-center ms-[127px]">
+                <!--  -->
+                <div class="flex mt-[20px]">
+                  <!--  -->
+                  <img class="" src="/asset/time.svg" alt="" />
+                  <!--  -->
+
+                  <!--  -->
+                  <select class="date w-[200px]">
+                    <option class="hidden">Time</option>
+                    <option>21.00</option>
+                    <option>16.00</option>
+                  </select>
+                  <!--  -->
+                </div>
+                <!--  -->
+
+                <!--  -->
+                <div class="flex mt-[20px] ms-[60px]">
+                  <!--  -->
+                  <img class="" src="/asset/ticket.svg" alt="" />
+                  <!--  -->
+
+                  <!--  -->
+                  <select class="date w-[200px]">
+                    <option class="hidden">Tickets</option>
+                    <option>1</option>
+                    <option>2</option>
+                  </select>
+                  <!--  -->
+                </div>
+                <!--  -->
+              </div>
+            </div>
+
+            <div class="ms-[140px]">
+              <div
+                class="w-[285px] h-[144px] rounded-[8px] border-2 border-[#D9D9D9]"
+              >
+                <p
+                  class="text-[#111827] font-Dmsans text-base font-medium mt-[19px]"
+                >
+                  Total Ticket Price
+                </p>
+                <p class="font-Dmsans text-[20px] font-medium text-[#4F4F4F]">
+                  Rp. 212.000
+                </p>
+                <div class="flex justify-center mt-[17px]">
+                  <button class="button-movie">Buy Tickets</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-[57px]">
+        <p class="ms-[137px] text-[#111827] text-[24px] font-Dmsans font-bold">Film Information</p>
+        <div class="grid grid-cols-3 ms-[137px] max-w-screen-lg mx-auto">
+
+          <div class="mt-[36px] flex">
+            <div class="">
+              <img src="/asset/time-duration.svg" alt="">
+            </div>
+            <div class="block ms-[20px]">
+              <p class="text-[#111827] text-[20px] font-bold">Duration</p>
+              <p class="font-Dmsans text-base text-[#5C5C5F]">2 hour 26 minutes</p>
+            </div>
+          </div>
+
+          <div class="mt-[36px] flex">
+            <div class="">
+              <img src="/asset/13+.svg" alt="">
+            </div>
+            <div class="block ms-[20px]">
+              <p class="text-[#111827] text-[20px] font-bold">Audience</p>
+              <p class="font-Dmsans text-base text-[#5C5C5F] w-[213px]">This movie is suitable for
+                audience aged 13  and above</p>
+            </div>
+          </div>
+
+          <div class="mt-[36px] flex">
+            <div class="">
+              <img src="/asset/genre.svg" alt="">
+            </div>
+            <div class="block ms-[20px]">
+              <p class="text-[#111827] text-[20px] font-bold">Genre</p>
+              <p class="font-Dmsans text-base text-[#5C5C5F]">This genre "tests the guts" of its 
+                connoisseurs by spreading fear </p>
+             
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-12">
+        <p class="ms-[137px] text-[#111827] text-[20px] font-Dmsans font-bold">Description</p>
+        <p class="ms-[137px] mt-1 text-[#9CA3AF] font-Dmsans text-base w-[994px]">The movie is set 10 years after Elise's death at the Lambert family home in "Insidious Chapter 2". This film will tell the story of Dalton who has begun to step into the world of college and how he reconnects with his past story in the spirit world.As a reminder, in story "Insidious Chapter 2", Josh and Dalton decided to erase their memories of The Further and all the demons in it, including the woman 
+          in the bride's dress and the red-faced ghost. 
+          </p>
+    </div>
+      </div>
+    </section>
+    <!-- Main content -->
+
+        <!-- Footer -->
+
+        <footer class="h-[258px] w-full bg-black mt-[100px]">
+          <div class="flex justify-center">
+            <div class="mt-[50px] flex gap-12">
+              <img src="/asset/fb.svg" alt="" />
+              <img src="/asset/ig.svg" alt="" />
+              <img src="/asset/twitter.svg" alt="" />
+              <img src="/asset/youtube.svg" alt="" />
+            </div>
+          </div>
+    
+          <div class="flex justify-center">
+            <div
+              class="mt-[36px] flex text-white gap-x-[48px] font-Dmsans text-[18px] font-bold"
+            >
+              <p>Conditions of Use</p>
+              <p>Privacy & Policy</p>
+              <p>Press Room</p>
+            </div>
+          </div>
+    
+          <div class="flex justify-center">
+            <div class="mt-[36px] flex">
+              <p class="font-Dmsans text-[18px] font-bold text-[#F6F6F6]">
+                © 2023 Moviest. All rights reserved.
+              </p>
+            </div>
+          </div>
+        </footer>
+    
+        <!-- Footer -->
+  </body>
+</html>
